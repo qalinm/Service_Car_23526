@@ -10,13 +10,15 @@ public class Main {
         System.out.println("Lista wszystkich aut z numeracją:");
         displayCarListWithNumbering(cars);
 
+        //potrzebny kod
+
         System.out.println("\nPodaj nazwę firmy (company) do filtrowania:");
         Scanner scanner = new Scanner(System.in);
         String filterCompany = scanner.nextLine();
         scanner.close();
         
 //nie można usunąć ponieważ nie działa filtrowanie po marce
-        
+
         List<Car> filteredCars = filterCarsByCompany(cars, filterCompany);
         System.out.println("\nLista aut po filtrowaniu dla firmy " + filterCompany + ":");
         displayCarListWithNumbering(filteredCars);
