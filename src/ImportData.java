@@ -33,4 +33,4 @@ class ImportData {
 
 //test pull request
 //kolejny test pull
-// tera powinno zadziałać
+// teraz powinno zadziałać
