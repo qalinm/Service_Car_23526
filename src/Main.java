@@ -15,9 +15,6 @@ public class Main {
         String filterCompany = scanner.nextLine();
         scanner.close();
 
-        List<Car> filteredCars = filterCarsByCompany(cars, filterCompany);
-        System.out.println("\nLista aut po filtrowaniu dla firmy " + filterCompany + ":");
-        displayCarListWithNumbering(filteredCars);
     }
 
 
