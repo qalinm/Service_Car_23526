@@ -14,7 +14,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String filterCompany = scanner.nextLine();
         scanner.close();
-
+        
+//nie można usunąć ponieważ nie działa filtrowanie po marce
+        
         List<Car> filteredCars = filterCarsByCompany(cars, filterCompany);
         System.out.println("\nLista aut po filtrowaniu dla firmy " + filterCompany + ":");
         displayCarListWithNumbering(filteredCars);
