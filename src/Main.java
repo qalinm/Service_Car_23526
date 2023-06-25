@@ -20,6 +20,8 @@ public class Main {
         List<Car> filteredCars = filterCarsByCompany(cars, filterCompany);
         System.out.println("\nLista aut po filtrowaniu dla firmy " + filterCompany + ":");
         displayCarListWithNumbering(filteredCars);
+
+        //dobra robota
     }
 
 
